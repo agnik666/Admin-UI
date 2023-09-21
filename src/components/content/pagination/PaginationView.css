@@ -1,0 +1,32 @@
+.pagination-view {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 20px;
+  width: 80%;
+  flex-wrap: wrap;
+}
+
+.pagination-view button {
+  padding: 5px 20px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+
+.pagination-view button.btn-active {
+  background-color: #007bff;
+  color: #fff;
+  border-color: #007bff;
+}
+.nav-button:hover {
+  background-color: #007bff;
+  transition: background-color 0.3s ease;
+}
+
+@media (max-width: 768px) {
+  .pagination-view button {
+    padding: 3px 10px;
+  }
+}

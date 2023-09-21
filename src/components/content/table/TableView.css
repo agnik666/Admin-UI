@@ -1,0 +1,26 @@
+.table-rows {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  white-space: nowrap;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #e2e8f0;
+  border-color: #edf2f7;
+}
+
+.row-icons {
+  padding: 2px;
+}
+
+.row-icons:hover {
+  transform: scale(1.2);
+  transition: transform 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.row-active {
+  background-color: #d3d3d3;
+  transition: background-color 0.3s ease;
+}

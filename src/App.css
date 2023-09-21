@@ -1,0 +1,37 @@
+*{
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.main-container {
+  overflow-x: auto;
+  min-height: 100vh;
+}
+
+.flex-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.admin-header {
+  background: linear-gradient(90deg, #24232b 0%, #800080 100%);
+  color: #fff;
+  padding: 1rem;
+  font-size: large;
+}
+
+.admin-footer {
+  background: linear-gradient(90deg, #24232b 0%, #800080 100%);
+  color: #fff;
+  padding: 1rem;
+  font-size: large;
+}
+
+.content-main {
+  background-color: #f0f0f0;
+  padding: 2rem;
+  width: 100%;
+}

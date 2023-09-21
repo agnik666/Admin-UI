@@ -1,0 +1,68 @@
+.container {
+  background-color: #fff;
+  padding: 20px;
+  text-align: center;
+  margin: 0 auto;
+  width: 80%;
+  border: 1px solid #ccc;
+  border-radius: 1rem;
+  overflow-x: auto;
+}
+
+.input-view {
+  width: 50%;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-color: #e5e7eb;
+  text-align: left;
+  font-size: 1rem;
+  font-weight: bold;
+  color: #6b7280;
+  text-transform: uppercase;
+  line-height: 1rem;
+  text-align: center;
+}
+
+.delete-container {
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.delete-button {
+  background-color: #f44336;
+  color: #fff;
+  border-radius: 1rem;
+  cursor: pointer;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.delete-button:hover {
+  background-color: #d32f2f;
+}
+
+.pagination-delete-view {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+}
+
+@media screen and (max-width: 768px) {
+  .pagination-delete-view {
+    flex-direction: column;
+  }
+}
